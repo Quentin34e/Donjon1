@@ -1,4 +1,5 @@
-import java.util.*;
+import java.util.Random;
+import java.util.Scanner;
 
 public class Map {
 	private int nblignes;
@@ -11,7 +12,7 @@ public class Map {
 	private int b;
 	private String c;
 	
-	Map(int nblignes,int nbcolonnes){
+	public Map(int nblignes,int nbcolonnes){
 		setnbcolonnes(nbcolonnes);
 		setnblignes(nblignes);
 		map=new String [nblignes][nbcolonnes];

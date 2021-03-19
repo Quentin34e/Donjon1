@@ -6,7 +6,6 @@ import java.util.Arrays;
 	
 public class MainServeur {
 	 
-	public class Serveur {
 	    static final int port = 9999;
 	 
 	    public static void main(String[] args) throws Exception {
@@ -40,6 +39,6 @@ public class MainServeur {
 	        in.close();
 	        out.close();
 	        soc.close();
-	    }
+	    
 	}
 }
