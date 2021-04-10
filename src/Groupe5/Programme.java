@@ -1,9 +1,9 @@
 package Groupe5;
 
-public class Main {
+public class Programme {
 	
 	public static void main (String [] args) {
-		Map map = new Map (15,15);
+		Carte map = new Carte (15,15);
 		
 	}
 

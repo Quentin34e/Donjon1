@@ -3,7 +3,7 @@ package Groupe5;
 import java.util.Random;
 import java.util.Scanner;
 
-public class Map {
+public class Carte {
 	private int nblignes;
 	private int nbcolonnes;
 	private int x;
@@ -14,7 +14,7 @@ public class Map {
 	private int b;
 	private String c;
 	
-	public Map(int nblignes,int nbcolonnes){
+	public Carte(int nblignes,int nbcolonnes){
 		setnbcolonnes(nbcolonnes);
 		setnblignes(nblignes);
 		map=new String [nblignes][nbcolonnes];
