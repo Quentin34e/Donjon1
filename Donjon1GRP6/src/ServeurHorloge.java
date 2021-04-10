@@ -1,4 +1,3 @@
-package Donjon1GRP6.src;
 
 import java.io.*;
 import java.net.*;
@@ -24,10 +23,10 @@ public class ServeurHorloge extends Thread{
 				out = new PrintStream(socket.getOutputStream());
 				
 				//envoi du premier message
-				out.println("SERVEUR : en attente de requête");
+				out.println("SERVEUR : en attente de requï¿½te");
 				
 				
-				//5 requêtes
+				//5 requï¿½tes
 			for(int req=0;req<5;req++){
 				
 			

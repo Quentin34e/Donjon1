@@ -1,4 +1,3 @@
-package Donjon1GRP6.src;
 
 import javax.swing.*;
 
