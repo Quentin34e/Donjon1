@@ -22,10 +22,10 @@ public class ServeurHorloge extends Thread{
 				out = new PrintStream(socket.getOutputStream());
 				
 				//envoi du premier message
-				out.println("SERVEUR : en attente de requ�te");
+				out.println("SERVEUR : en attente de requete");
 				
 				
-				//5 requ�tes
+				//5 requetes
 			for(int req=0;req<5;req++){
 				
 			

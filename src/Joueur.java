@@ -11,9 +11,9 @@ public class Joueur {
 	 
 
 	 
-	        System.out.println("Client a cree les flux");
+	    System.out.println("Client a cree les flux");
 	 
-	        int[] tableauAEmettre = {1, 2, 3};
+	    int[] tableauAEmettre = {1, 2, 3};
 	 
 	        out.writeObject(tableauAEmettre);
 	        out.flush();

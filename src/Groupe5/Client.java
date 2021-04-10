@@ -12,19 +12,21 @@ public class Client {
 	
 	public static void main(String args[]) throws UnknownHostException, IOException{
 		
-		//cr�ation du socket - recherche de connexion avec le serveur
+		//creation du socket - recherche de connexion avec le serveur
 		Socket socket= new Socket ("127.0.0.1", 6112);
 		
 		System.out.println("Bienvenue");
 		
 		in = new BufferedReader (new InputStreamReader(socket.getInputStream()));
+		// pour recevoir des info
 		out = new PrintStream(socket.getOutputStream());
+		// envoyer des info au serveur
 		Scanner scanner = new Scanner (System.in);
 		
 		//lecture du message initial du serveur
 		System.out.println(in.readLine());
 		
-		//5 requ�tes
+		//5 requetes
 		for(int i=0;i<5;i++){
 			out.println(scanner.nextLine());
 			System.out.println(in.readLine());
